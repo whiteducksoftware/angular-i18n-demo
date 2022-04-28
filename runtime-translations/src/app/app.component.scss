@@ -1,0 +1,19 @@
+:host(app-root) {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.app-title {
+  margin-top: 10vh;
+}

@@ -1,0 +1,19 @@
+<mat-toolbar class="navbar" color="primary">
+  <!-- i18n tag with custom id and default value -->
+  <span i18n="@@routes.label.start-page">Start Page</span>
+
+  <mat-button-toggle-group
+    name="language-switcher"
+    aria-label="Select display language"
+    (valueChange)="changeLocale($event)"
+  >
+    <mat-button-toggle value="en">EN</mat-button-toggle>
+    <mat-button-toggle value="de">DE</mat-button-toggle>
+  </mat-button-toggle-group>
+</mat-toolbar>
+
+<div class="content-container">
+  <div class="app-title mat-display-2">{{ title }}</div>
+
+  <router-outlet></router-outlet>
+</div>
