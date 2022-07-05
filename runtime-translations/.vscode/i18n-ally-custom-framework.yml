@@ -1,0 +1,31 @@
+# .vscode/i18n-ally-custom-framework.yml
+
+# An array of strings which contain Language Ids defined by VS Code
+# You can check avaliable language ids here: https://code.visualstudio.com/docs/languages/overview#_language-id
+languageIds:
+  - javascript
+  - typescript
+  - javascriptreact
+  - typescriptreact
+  - html
+
+# An array of RegExes to find the key usage. **The key should be captured in the first match group**.
+# You should unescape RegEx strings in order to fit in the YAML file
+# To help with this, you can use https://www.freeformatter.com/json-escape.html
+usageMatchRegex:
+  # Matches Angular native i18n tags, the regex must capture the key introductionHeader in the following examples
+  # Example for first regex: <h1 i18n="An introduction header for this sample@@introductionHeader">Hello i18n!</h1>
+  # Example for second regex: $localize `:An introduction header for this sample@@introductionHeader:Hello i18n!`
+  - "(?:i18n)[-\\w]*?[\\=]['\"].*?[@]{2}([\\w\\s\\.\\-]+?)['\"]"
+  - "(?:\\$localize)\\s*?[`][\\:].*?[@]{2}([\\w\\s\\.\\-]+?)[:]"
+
+# An array of strings containing refactor templates.
+# The "$1" will be replaced by the keypath specified.
+# Optional: uncomment the following two lines to use
+
+# refactorTemplates:
+#  - i18n.get("$1")
+
+# If set to true, only enables this custom framework (will disable all built-in frameworks)
+monopoly: true
+keyStyle: flat

@@ -28,6 +28,9 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
+# i18n ally customization
+!.vscode/i18n-ally-custom-framework.yml
+
 # Miscellaneous
 /.angular/cache
 .sass-cache/
