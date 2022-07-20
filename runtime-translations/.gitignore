@@ -30,6 +30,7 @@ yarn-error.log
 
 # i18n ally customization
 !.vscode/i18n-ally-custom-framework.yml
+!.vscode/i18n-ally-reviews.yml
 
 # Miscellaneous
 /.angular/cache
