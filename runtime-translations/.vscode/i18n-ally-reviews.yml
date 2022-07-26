@@ -7,14 +7,14 @@ reviews:
         comments:
           - user:
               name: Markus Voit
-              email: markus.voit@whiteduck.de
+              email: email@example-com
             id: vaDHQ4RRvtS95MauXsN3u
             type: request_change
             comment: Maybe we should change this to Homepage?
             time: '2022-07-20T10:05:26.665Z'
           - user:
               name: Markus Voit
-              email: markus.voit@whiteduck.de
+              email: email@example-com
             id: 3DqHv_ZiOWEW4uz5B80Oi
             type: request_change
             comment: >-
@@ -24,7 +24,7 @@ reviews:
             resolved: true
           - user:
               name: Markus Voit
-              email: markus.voit@whiteduck.de
+              email: email@example-com
             id: OH0JoOutSVxGzegQt2QDN
             comment: It should be either Home Page or Home page.
             suggestion: >-
