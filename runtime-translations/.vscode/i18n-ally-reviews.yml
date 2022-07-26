@@ -12,3 +12,26 @@ reviews:
             type: request_change
             comment: Maybe we should change this to Homepage?
             time: '2022-07-20T10:05:26.665Z'
+          - user:
+              name: Markus Voit
+              email: markus.voit@whiteduck.de
+            id: 3DqHv_ZiOWEW4uz5B80Oi
+            type: request_change
+            comment: >-
+              Thank you for the proposal, but this was intentionally translated
+              as Start Page.
+            time: '2022-07-26T12:29:02.524Z'
+            resolved: true
+          - user:
+              name: Markus Voit
+              email: markus.voit@whiteduck.de
+            id: OH0JoOutSVxGzegQt2QDN
+            comment: It should be either Home Page or Home page.
+            suggestion: >-
+              I'd recommend to stay with Start Page but change the spelling to
+              Start page.
+            type: request_change
+            time: '2022-07-26T12:31:42.499Z'
+    description: >-
+      This is shown in the navbar to indicate that you navigated to the
+      startpage.
