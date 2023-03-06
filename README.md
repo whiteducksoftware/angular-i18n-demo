@@ -1,6 +1,6 @@
 # Angular i18n demo
 
-This repository is accompanying our blogpost on [Angular internationalization (i18n) in 2022](https://whiteduck.de/angular-internationalization-i18n-in-2022/). It demonstrates how to use the native [Angular i18n library](https://www.npmjs.com/package/@angular/localize) to translate your angular application at runtime. For more information see the blogpost.
+This repository is accompanying our blogpost on [Angular internationalization (i18n) in 2022](https://whiteduck.de/how-to-approach-angular-internationalization-i18n-in-2022/). It demonstrates how to use the native [Angular i18n library](https://www.npmjs.com/package/@angular/localize) to translate your angular application at runtime. For more information see the blogpost.
 
 ## How to run it
 
